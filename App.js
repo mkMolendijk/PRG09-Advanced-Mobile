@@ -13,6 +13,7 @@ const firebaseConfig = {
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
+// Return object for tab navigation
 class App extends Component {
     render() {
         return <Tabs/>;

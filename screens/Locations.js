@@ -12,6 +12,7 @@ export default class Locations extends Component {
         }
     }
 
+    // Fetch data from Firebase database
     componentWillMount() {
         this.itemsRef.on('value', (snapshot) => {
             let items = snapshot.val();
@@ -29,6 +30,7 @@ export default class Locations extends Component {
         });
     }
 
+    // Render list view
     render() {
         const {navigate} = this.props.navigation;
         return (

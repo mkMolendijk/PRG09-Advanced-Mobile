@@ -5,6 +5,7 @@ import {Icon} from 'native-base';
 import Map from '../screens/Map';
 import Locations from '../screens/Locations';
 
+// Set screens for tab navigation
 export const Tabs = TabNavigator({
     Map: {
         screen: Map,
