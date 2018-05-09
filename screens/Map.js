@@ -40,7 +40,7 @@ export default class Map extends Component {
     // Action when pressed on 'Here am I' button
     onBtnPress(e) {
         let params = {
-            key: 'AIzaSyATvLkC1h0VRQHwLI6GrxNfQyYoQ6ZJxFg',
+            key: '<key here>',
             latlng: `${this.state.lastLat},${this.state.lastLong}`,
         };
 
